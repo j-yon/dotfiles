@@ -1,0 +1,5 @@
+channels:
+  - defaults
+
+env_prompt: '\[$(tput setaf 37)\]( {default_env}) '
+solver: classic

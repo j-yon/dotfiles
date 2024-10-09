@@ -1,0 +1,24 @@
+[init]
+	defaultBranch = main
+[user]
+	name = j-yon
+	email = jyon7@gatech.edu
+[push]
+	autoSetupRemote = true
+[color]
+	ui = auto
+[commit]
+	template = /theoryfs2/ds/jadeny/.gitmessage
+	verbose = true
+[fetch]
+	prune = true
+[merge]
+	conflictStyle = diff3
+[pull]
+	ff = only
+[url "git@github.com:"]
+	insteadOf = "gh:"
+[diff]
+  algorithm = histogram
+[core]
+	editor = /theoryfs2/ds/jadeny/bin/nvim
