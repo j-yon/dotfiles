@@ -1,0 +1,22 @@
+# Aliases file for ZSH
+
+# General aliases
+alias ls='ls -G --color=always'
+alias grep='grep --color=auto'
+alias ..='cd ../'                           # Go back 1 directory level
+alias ...='cd ../../'                       # Go back 2 directory levels
+alias ....='cd ../../../'                   # Go back 3 directory levels
+alias la='ls -a'
+alias ll='ls -ltrh'
+alias lla='ls -ltrah'
+alias c='clear'
+alias src='source ~/.zshenv'
+alias sd='source deactivate'
+alias nv='nvim'
+
+# Git aliases
+alias gs='git status'
+alias ga='git add'
+alias dotfile='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias ds='dotfile status'
+alias da='dotfile add'
