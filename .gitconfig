@@ -8,7 +8,7 @@
 [color]
 	ui = auto
 [commit]
-	template = /Users/jaden/.gitmessage
+	template = ~/.gitmessage
 	verbose = true
 [fetch]
 	prune = true
@@ -21,4 +21,4 @@
 [diff]
   algorithm = histogram
 [core]
-	editor = /opt/homebrew/bin/nvim
+	editor = ~/bin/nvim
