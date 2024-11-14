@@ -1,5 +1,24 @@
-# This is Git's per-user configuration file.
+[init]
+	defaultBranch = main
 [user]
-# Please adapt and uncomment the following lines:
-	name = Jaden Yon
-	email = jadenyon74@gmail.com
+	name = j-yon
+	email = jyon7@gatech.edu
+[push]
+	autoSetupRemote = true
+[color]
+	ui = auto
+[commit]
+	template = /Users/jaden/.gitmessage
+	verbose = true
+[fetch]
+	prune = true
+[merge]
+	conflictStyle = diff3
+[pull]
+	ff = only
+[url "git@github.com:"]
+	insteadOf = "gh:"
+[diff]
+  algorithm = histogram
+[core]
+	editor = /opt/homebrew/bin/nvim
